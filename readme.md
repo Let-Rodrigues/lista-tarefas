@@ -33,13 +33,13 @@ As tarefas são salvas no seu navegador (usando o `localStorage`), então elas p
 
 1.  **Clone o repositório:**
     ```bash
-    git clone (https://github.com/Let-Rodrigues/To-do-List.git)
+    git clone https://github.com/Let-Rodrigues/lista-tarefas.git
     ```
 2.  **Abra o `index.html`** no seu navegador.
 
 ## 🔗 Acesse Online
 
-[Link para o projeto online (https://to-do-list-5mws.vercel.app/)]
+Link para o projeto online https://lista-tarefas-53jo.vercel.app/
 
 ## Como Funciona (Resumido)
 
@@ -56,5 +56,7 @@ Dúvidas ou sugestões? Entre em contato!
 
 - LinkedIn: linkedin.com/in/leticia-rodrigues-dev
 - Email: leticia.rodrigues23@gmail.com
+
+Link para o projeto: https://lista-tarefas-53jo.vercel.app/
 
 Obrigada por conferir meu projeto! ✨
