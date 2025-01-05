@@ -1,0 +1,105 @@
+* {
+    margin: 0; 
+    padding: 0; 
+     
+}
+
+.background-image-heading {
+    background-image: url('./image/imagemdefundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    width: auto;
+}
+
+.controls {
+    display: left;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+body {
+    background-color: whitesmoke
+}
+
+main {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    display: inline;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-family: "Trirong", serif;
+    font-size: 80px;
+    background-image: image();
+}
+
+ul {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+button {
+    font-family: "Trirong", serif;
+    color: black;
+    background-color: gainsboro;
+    transition-duration: 0.4s;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3b5e7e; 
+  color: white;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input {
+    font-family: "Trirong", serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px; 
+    height: 20px; 
+    vertical-align: middle;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+  
